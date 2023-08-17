@@ -1,0 +1,154 @@
+.fundopreto2 {
+  background-color: rgb(28, 28, 28);
+  padding: 0px;
+  margin: 0px;
+} 
+.divespaço{
+  display: flex;
+  flex-wrap: wrap;
+}
+.fundopreto {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  /* margin-left: -500px; */
+  /* padding-left: 50px; */
+}
+.Titulo2 {
+  word-break: break-all;
+  /* max-width: 6ch; */
+  font-size: 8rem;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-top: 70px;
+ 
+}
+.divtitulo2 {
+  /* padding: 20px 0px; */
+  margin-top: 80px;
+  /* margin-left:-20px ; */
+  font-size: 1rem;
+}
+.fundo2 {
+  border-radius: 5px;
+  font-size: 1.1rem;
+  padding: 0px 20px;
+  background-color: #000000;
+}
+.fundosection2 {
+  font-weight: bold;
+  /* display: grid;
+  grid-template-columns: 220px 220px 220px; */
+  /* gap: 30px; */
+  padding: 0px 90px;
+}
+.fundosection2 .fundo2 ul li {
+  display: flex;
+  flex-wrap: wrap;
+}
+.section2p::before {
+  position: absolute;
+  justify-content: left;
+  /* bottom: 20px; */
+  /* display: flex; */
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  margin-left: -25px;
+}
+/* COMEÇAR DAQUI!!!!!!!! */
+
+.divseparar {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 20px;
+
+  /* padding: 20px; */
+  /* word-wrap: break-word; */
+}
+.section2p span {
+  padding: 10px 0px;
+}
+.espacinho {
+  margin-top: 50px;
+}
+
+.divseparar .section2p {
+  
+  text-align: left;
+  max-width: 150px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+.cursoidioma span {
+  display: flex;
+  justify-content: right;
+  margin-top: -20px;
+  line-height: 30px;
+}
+
+/* .fundosection2 .hora {
+  
+  
+  
+  text-align: right;
+  justify-content: space-between;
+} */
+.fundosection2 strong {
+  color: rgb(112, 112, 112);
+}
+
+.curso::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background-color: #67dd0a;
+  background: url("img/cursos.svg") no-repeat center;
+  position: absolute;
+  margin-left: -90px;
+  margin-top: -60px;
+}
+.idioma::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background-color: #67dd0a;
+  background: url("img/idiomas.svg") no-repeat center;
+  position: absolute;
+  margin-left: -90px;
+  margin-top: -40px;
+}
+.footerfundo {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+footer img {
+  display: block;
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 150px;
+}
+.footerfundo p {
+  /* grid-column: 1; */
+  font-size: 1.5rem;
+  padding: 50px;
+  color: rgb(212, 212, 212);
+  align-items: center;
+}
+.footerfundo ul li {
+  font-size: 3rem;
+  list-style: none;
+  background-color: black;
+}
+.footerfundo .direitos {
+  font-size: 1rem;
+  color: gray;
+}

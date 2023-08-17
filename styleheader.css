@@ -1,0 +1,122 @@
+.cabeça {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 20px;
+  align-items: center;
+  margin: 0px;
+  gap: 20px;
+}
+
+.cabeça-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 30px 20px;
+  justify-content: center;
+}
+.cabeça-menu a {
+  background-color: #acacac;
+  padding: 15px;
+  color: black;
+  border-radius: 5px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  /* margin-top: 20px; */
+  gap: 100px;
+  margin: 0 auto;
+  /* max-width: 1250px; */
+}
+.divintro {
+  margin-top: 60px;
+}
+
+.intro h1 {
+  color: black;
+  background-image: url(/img/detalhe.svg);
+  background-repeat: no-repeat;
+  font-size: 4.5rem;
+  padding: 40px;
+} 
+.intro p {
+  margin-top: -50px;
+  padding: 40px 40px;
+  font-size: 1.5rem;
+  color: rgb(134, 133, 133);
+}
+
+.intro img {
+  max-height: 540px;
+  margin: 15px;
+}
+.Titulo {
+  word-break: break-all;
+  max-width: 6ch;
+  font-size: 8rem;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+.divexp {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.divtitulo {
+  font-size: 1.5rem;
+  padding: 0px 90px;
+  margin-bottom: 50px;
+  max-width: 40ch;
+}
+.divtitulo2 {
+  font-size: 1.5rem;
+  padding: 0px 90px;
+  margin-bottom: 50px;
+}
+.h3eh4 {
+  margin-top: -30px;
+}
+.divsection2 {
+  padding: 5px 30px;
+  display: grid;
+  gap: 30px;
+  /* essa margin fas o site ficar com mais espaço em 600px na tela de celular */
+  margin-left: 60px;
+  /* margin-right: -50px; */
+  margin-bottom: 50px;
+}
+
+.divsection3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  padding: 10px 15px;
+  color: black;
+  background-color: rgb(255, 241, 241);
+  border-radius: 5px;
+}
+
+.span1 {
+  color: rgb(84, 84, 84);
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  margin-left: -75px;
+}
+
+.divsection3::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 20px;
+  background: linear-gradient(#b6f829, #67dd0a);
+  margin-left: -17px;
+}
+
+.divsection3 li {
+  padding: 5px;
+  justify-content: start;
+  /* margin-block-end: -30px; */
+}

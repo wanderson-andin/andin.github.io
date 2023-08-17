@@ -1,0 +1,109 @@
+@media (max-width: 950px) {
+  .divintro {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 830px) {
+  .lobinhu {
+    display: none;
+  }
+  .intro{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+  }
+  .intro h1 {
+    font-size: 4rem;
+    text-align: center;
+    
+  }
+  .intro p{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+} 
+
+@media (max-width: 600px) {
+  .divtitulo{
+    text-align: center;
+  }
+  .divexp {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0px;
+    
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .divexp .Titulo {
+    font-size: 4rem;
+    justify-self: center;
+    word-break: normal;
+    margin-left: -200px;
+    margin-bottom: 30px;
+    
+  }
+  
+  /* .divintro{
+    
+
+  } */
+  
+  .cabeça {
+    flex-direction: column;
+  }
+  
+  .intro {
+    padding-top: 30px;
+   display: block;
+   text-align: center;
+  }
+  .intro h1 {
+    font-size: 3rem;
+   
+  }
+
+  .intro img {
+    margin-top: 50px;
+    max-width: 150px;
+  }
+  .intro h1,
+  .intro p {
+    padding: 30px;
+  }
+  h2 {
+    font-size: 3.4rem;
+    text-transform: none;
+    text-align: center;
+  }
+  .divsection1 {
+    align-items: center;
+    color: aqua;
+  }
+
+  .footerfundo {
+   align-items: center;
+    color: aqua;
+    /* display: flex */
+    
+  }
+  .footerfundo li{
+    font-size: 2rem;
+  }
+  .fundopreto{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .Titulo2{
+    text-align: center;
+    font-size: 4rem;
+  }
+  h2{
+    font-size: 2rem;
+  }
+  
+  
+
+}
