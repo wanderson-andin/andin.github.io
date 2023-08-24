@@ -147,6 +147,7 @@ footer img {
   font-size: 3rem;
   list-style: none;
   background-color: black;
+  color: var(--corfooter-dados)
 }
 .footerfundo .direitos {
   font-size: 1rem;

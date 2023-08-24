@@ -1,3 +1,18 @@
+:root{
+  --corbranca: #ffffff;
+  --corpreta: #000000;
+  --corcinza:#999999d6;
+  --corfooter-dados:#cacaca;
+ }
+
+@media (prefers-color-scheme:dark) {
+  :root{
+    --corbranca:#000000;
+    --corcinza:#ffffffd8;
+    --corpreta:#e9e9e9;
+  }
+}
+
 @media (max-width: 950px) {
   .divintro {
     margin-top: -50px;

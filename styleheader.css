@@ -35,7 +35,7 @@
 }
 
 .intro h1 {
-  color: black;
+  color: var(--corpreta);
   background-image: url(/img/detalhe.svg);
   background-repeat: no-repeat;
   font-size: 4.5rem;
@@ -51,6 +51,7 @@
 .intro img {
   max-height: 540px;
   margin: 15px;
+  
 }
 .Titulo {
   word-break: break-all;
@@ -94,7 +95,7 @@
   gap: 10px;
   padding: 10px 15px;
   color: black;
-  background-color: rgb(255, 241, 241);
+  background-color: var(--corbranca);
   border-radius: 5px;
 }
 
